@@ -1,9 +1,8 @@
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive 
 ENV LD_LIBRARY_PATH=/install/lib/x86_64-linux-gnu
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-        apt-utils \
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends apt-utils \
         curl \
         libc6-dev \
         ca-certificates \
