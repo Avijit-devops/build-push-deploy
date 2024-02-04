@@ -1,1 +1,1 @@
-Testing full build,pushand deployment 
+Testing for build,push and deployment 
